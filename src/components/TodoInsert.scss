@@ -1,0 +1,38 @@
+.todoinsert {
+  display: flex;
+  background: #7874c5;
+  border-radius: 50px;
+
+  input {
+    background: none;
+    outline: none;
+    border: none;
+    padding: 0.5rem;
+    padding-left: 2rem;
+    font-size: 1rem;
+    line-height: 1.6;
+    color: white;
+    &::placeholder {
+      color: #e6f2f7;
+    }
+    flex: 1;
+  }
+  button {
+    background: none;
+    outline: none;
+    border: none;
+    border-radius: 50px;
+    background: #ffb4c2;
+    color: white;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    font-size: 1.5rem;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    transition: 0.1s background ease-in;
+    &:hover {
+      background: #fad5dc;
+    }
+  }
+}

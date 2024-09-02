@@ -1,5 +1,16 @@
+@font-face {
+  font-family: "KCCChassam";
+  src: url("https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2302@1.0/KCCChassam.woff2")
+    format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
 .App {
   text-align: center;
+  font-family: iceHimchan-Rg;
+}
+body {
+  font-family: "KCCChassam";
 }
 
 .App-logo {
